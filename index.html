@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Library Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h2>Library Management System</h2>
+
+        <form id="bookForm">
+
+            <input type="text" id="bookId"
+            placeholder="Book ID" required>
+
+            <input type="text" id="bookName"
+            placeholder="Book Name" required>
+
+            <input type="text" id="author"
+            placeholder="Author Name" required>
+
+            <button type="submit">Add Book</button>
+
+            <button type="reset">Reset</button>
+
+        </form>
+
+        <h3>Book Details</h3>
+
+        <table border="1">
+
+            <tr>
+                <th>Book ID</th>
+                <th>Book Name</th>
+                <th>Author</th>
+            </tr>
+
+            <tbody id="bookList"></tbody>
+
+        </table>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
